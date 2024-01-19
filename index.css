@@ -1,0 +1,385 @@
+body {
+    scroll-behavior: smooth;
+    background-color: gray;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+header h3 {
+    font-size: 30px;
+}
+
+.Links-Div {
+    margin: 20px 5%;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.Intro-btn {
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+.Links-Div h3 {
+    color: rgb(255, 196, 0);
+    transition: 0.7s;
+}
+
+.Links-Div h3:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Links-Div span {
+    color: white;
+}
+
+.Links-Div header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.Links-Div a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+
+#Home-Link {
+    color: rgb(255, 196, 0);
+}
+
+.Links-Div input {
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px black;
+    transition: 0.7s;
+}
+
+.Links-Div input:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Details-Div {
+    border: 2px solid transparent;
+    margin: 5% 5%;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Details-Div label {
+    color: white;
+    box-shadow: 0 5px 25px black;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Details-Div h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 5000;
+    font-size: 4em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.Details-Div p {
+    margin-top: 25px;
+    color: rgb(206, 202, 202);
+    font-size: 15px;
+}
+
+#Cv-btn,
+#show-btn {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 3px 8px;
+    box-shadow: 0 5px 25px black;
+    margin-top: 20px;
+}
+
+.div-btn input {
+    transition: 0.6s;
+}
+
+.div-btn input:hover {
+    transform: scale(1.0);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Social-Links {
+    margin-left: 5%;
+}
+
+.Social-Icons {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.5s;
+    padding: 4px 10px;
+}
+
+.Social-Icons:hover {
+    color: rgb(255, 196, 0);
+}
+
+.Main-div {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.Small-divs {
+    background-color: rgb(27, 26, 26);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#Services-div {
+    width: 90%;
+    max-width: 1300px;
+    margin-right: 5%;
+}
+
+.ImgDiv {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 5px solid rgb(255, 196, 0);
+    background-color: rgb(255, 196, 0);
+}
+
+.ImgDiv .circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-position: center center;
+}
+
+.div-con-img-and-Details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid transparent;
+    margin: 20px 5%;
+}
+
+.card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icon {
+    color: rgb(255, 196, 0);
+    font-size: 7em;
+    text-align: center;
+}
+
+.info {
+    align-items: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.Works-Divs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Services h2 {
+    color: rgb(255, 196, 0);
+    font-size: 2.5em;
+    margin-left: 5%;
+}
+
+.Services span {
+    color: white;
+}
+
+#Services-div {
+    margin-right: 5%;
+}
+
+.contact-us-input {
+    display: grid;
+    background-color: rgb(255, 196, 0);
+    width: 90%;
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 5% auto;
+}
+
+.inputss {
+    display: grid;
+    margin: 5%;
+}
+
+.inputss input {
+    margin: 5px 0px;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+#Message-input {
+    height: 120px;
+}
+
+.div-inputs-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+#sub-btn,
+#can-btn {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    border: 3px solid white;
+    border-radius: 14px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+#can-btn:hover,
+#sub-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    letter-spacing: 2.5px;
+}
+
+.about-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px 5%;
+}
+
+.about {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.about h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+    max-width: 650px;
+    height: 38px;
+    margin: 20px 0px;
+}
+
+.about h3 span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: rgb(255, 196, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 750px;
+}
+
+.about label {
+    color: white;
+}
+
+.form-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1300px;
+    margin: 5% auto;
+}
+
+.contact-us-div h2 {
+    color: rgb(255, 196, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+.contact-us-div span {
+    color: white;
+}
+
+.contact-us-div p {
+    color: rgb(255, 196, 0);
+}
+
+.Social-Links2 h2 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
